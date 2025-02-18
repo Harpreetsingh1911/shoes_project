@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.section-max-auto {
+  @apply max-w-[1560px] mx-auto;
+}
+
+@theme {
+  --breakpoint-mobile: 450px;
+  --breakpoint-mobile320: 370px;
+  --breakpoint-mb: 370px;
+}
